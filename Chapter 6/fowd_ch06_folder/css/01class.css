@@ -6,6 +6,7 @@
   padding: 10px;
   border: 1px solid black; 
   width 260px; 
+    background-color: green;
   }
 
 /* write other class selector examples for our paragraphs */
@@ -13,14 +14,15 @@
   margin-left: 20px; 
   padding-left: 5px; 
   border-left: 2px solid red; 
-  }
+}
 .important { 
   font-weight: bold; 
   color: red; 
-  }
+}
 #american {
     background-color: lightblue;
-  }
+}
 #japenese {
      background-color: lightsalmon;
-  }
+}
+  
