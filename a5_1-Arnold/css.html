@@ -1,28 +1,37 @@
 <!doctype html>
+<!-- add quote after us and before angle bracket -->
 <html lang="en-us>
 	<head>
-		<meta charset="utf-8">
+ 		<meta charset="utf-8">
+<!-- add author meta element here also check and make sure that it is also on the index and html pages. -->	
 		<title>FOWD: Learning CSS</title>
 	</head>
 	<body>
+<!-- inseert header div here and check to make sure also on index and html pages -->
 		<h1>Foundations of Web Design Samuel Arnold</h1>
 		<h2>Learning CSS</h2>
+<!-- end div here -->	 
+<!-- Style is never in the body. Move lines 15-17 to just above </head> -->	
 		<style>
 		h2 { color: orange; }
 	        </style>
+<!-- add id attribute with value of nav to ul tag -->	
 			<ul>
 			<li><a href="https://sea00010.github.io/a5_1-Arnold/index.html">Home</a></li>
 			<li><a href="https://sea00010.github.io/a5_1-Arnold/HTML.html">HTML</a></li>
 			<li><a href="https://sea00010.github.io/a5_1-Arnold/css.html">CSS</a></li>
 			<li>JavaScript</li>
 			</ul>
+<!-- add id attribute with the value of main to the div tag -->							     
 			<div>
 			<p>Cascading Style Sheets, or CSS, is the recommended way to control the presentation layer in a web document. The main advantage of CSS over presentational HTML markup is that the styling can be kept entirely separate from the content. For example, it's possible to store all the presentational styles for a 10,000-page website in a single CSS file. CSS also provides far better control over presentation than do presentational element types in HTML.</p>
 			<p>The rule set consists of a selector--the text before the left curly brace, {-- and a declaration block (delimited with the curly braces, { ... }).</p>
 			<pre>selector { declaration block; }</pre>
+<!-- change to /div and move down to just above </body> -->											     
 			<div>
+<!-- add width and height to img tag -->						     
 			<img src="images/css.png" alt="Photo of CSS">
-
+<!-- delete /style -->	
   </style>
 	</body>
 </html>
