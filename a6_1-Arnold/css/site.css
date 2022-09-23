@@ -1,2 +1,12 @@
 body { background-color: #cccccc; font-family: Helvetica, Arial, sans-serif; }
 (h1-h6) { font-family: Georgia, serif; }
+p,li { line-height: 1.25em; }
+p>em { font-weight: bold; }
+#nav { backgorund-color: #dddddd; }
+a { color: #008b14; }
+a:link { color: #008b14; }
+a:visited { color: #649a00; }
+a:hover { color: #00638b; }
+a:active { color: #00638b; }
+a:focus { color: #00638b; }
+table, th, td{ border: 1px solid #333; }
