@@ -1,5 +1,5 @@
 body { background-color: #cccccc; font-family: Helvetica, Arial, sans-serif; }
-h1, h2, h3, h4, h5, h6 { font-family: Georgia, serif; }
+h1,h2,h3,h4,h5,h6 { font-family: Georgia, serif; }
 p,li { line-height: 1.25em; }
 p>em { font-weight: bold; }
 #nav { background-color: #dddddd; }
@@ -10,3 +10,6 @@ a:hover { color: #00638b; }
 a:active { color: #00638b; }
 a:focus { color: #00638b; }
 table, th, td{ border: 1px solid #333; }
+li {
+    font-weight: bold;
+}
