@@ -15,4 +15,9 @@ color:  red;
 }
 /* NEW CSS GOES BELOW */
 /* for our CSS, we'll use the # for the "id" selector */
-
+#american {
+    background-color: lightblue;
+}
+#japanese {
+    background-color: lightsalmon;
+}
