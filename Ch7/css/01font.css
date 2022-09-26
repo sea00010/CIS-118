@@ -66,6 +66,7 @@
   or we can give a name: bold
   */
   dt { font-weight: bold; }
+  h2 {font-weight: lighter; }
 
 
   /* font
