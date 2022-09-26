@@ -58,7 +58,7 @@
   /* font-variant
   This can allow us to style small-caps
   */
-
+  h2 { font-variant: small-caps; }
 
   
   /* font-weight
