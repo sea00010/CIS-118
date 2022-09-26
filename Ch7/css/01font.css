@@ -44,7 +44,7 @@
   	font-size: 3em (48px/16px = 3em)
   	target size / baseline (context) size = value
   */
-        h1 { font-size: 72px; }
+        h1 { font-size: 450%; }
 
 
   /* font-style 
