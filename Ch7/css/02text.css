@@ -5,7 +5,7 @@ p,dd { line-height: 1.35em;}
 /* ADD EXAMPLES BELOW */
 /*text-align values: right, center, left or justify */
 #textAlign dt { text-align: right; } 
-
+#textAlign dd { text-align: right; }  
 
 
 /*text-decoration values: line-through, none, overline, underline */
