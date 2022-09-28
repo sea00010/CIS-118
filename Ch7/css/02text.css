@@ -14,7 +14,7 @@ p,dd { line-height: 1.35em;}
 .underTextNone a { text-decoration: none; }
 .overText  { text-decoration: overline; }
 .underText  { text-decoration: underline; }
-.textIndent dd  { text-indent: 20px; }
+
 /* remove a line from under an anchor element */
 
 
@@ -26,6 +26,6 @@ p,dd { line-height: 1.35em;}
 
 
 /* indent the first line of text */
-
+#textIndent dd  { text-indent: 20px; }
 
 /* capitalize, lowercase, uppercase */
