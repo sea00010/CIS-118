@@ -8,7 +8,7 @@
  /* ADD EXAMPLES BELOW */
  
  /*line-height*/
- blockquote p { line-height: 24px; }
+
  
  
  
@@ -21,7 +21,7 @@
 Step 1
 + Change the font-size to 18px
 ++ Refresh the browser to see the line-height change automatically!
-
+blockquote p { 18px/1.5; }
 Step 2
 + remove the blockquote selector and have only the p selector
 ++ View your HTML document and see that both paragraphs now look the same (size and spacing) 
