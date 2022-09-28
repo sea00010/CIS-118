@@ -29,3 +29,4 @@ p,dd { line-height: 1.35em;}
 #textIndent dd  { text-indent: 20px; }
 
 /* capitalize, lowercase, uppercase */
+#textCapital  { text-transform: capitalize; }
