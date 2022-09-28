@@ -10,7 +10,7 @@ p,dd { line-height: 1.35em;}
 
 /*text-decoration values: line-through, none, overline, underline */
 /* add a line through the text */
-
+.throughText { text-decoration: line-through; } 
 
 /* remove a line from under an anchor element */
 
