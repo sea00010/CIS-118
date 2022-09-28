@@ -13,6 +13,7 @@ p,dd { line-height: 1.35em;}
 .throughText { text-decoration: line-through; } 
 .underTextNone a { text-decoration: none; }
 .overText  { text-decoration: overline; }
+.underText  { text-decoration: underline; }
 /* remove a line from under an anchor element */
 
 
