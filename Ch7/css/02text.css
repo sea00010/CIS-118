@@ -30,3 +30,4 @@ p,dd { line-height: 1.35em;}
 
 /* capitalize, lowercase, uppercase */
 .textCapital  { text-transform: capitalize; }
+.textUpper  { text-transform: uppercase; }
