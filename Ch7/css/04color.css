@@ -41,3 +41,6 @@ body{
 #hsla .green{ color: hsla(120, 100%, 50%, .5); }
 #hsla .blue{ color: hsla(240, 100%, 50%, .5); }
 /*Add text a text value*/
+h1 { text-shadow: 2px 2px 0px orange; }
+/*you can also have more than one text-shadow separated by a comma */
+h1 { text-shadow: 1px 1px 0px white, 2px 2px 0px orange ; }
