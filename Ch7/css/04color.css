@@ -29,7 +29,9 @@ body{
 #rgb .green{ color: rgb(0,255,0); }
 #rgb .blue{ color: rgb(0,0,255); }
 /*Add color rgba value*/
-
+#rgba .red{ color: rgba(255, 0, 0,.5); }
+#rgba .green{ color: rgba(0, 255, 0,.5); }
+#rgba .blue{ 	color: rgba(0, 0, 255,.5); }
 /*Add color hsl value*/
 #hsl .red{ color: hsl(0, 100%, 50%); }
 #hsl .green{ color: hsl(120, 100%, 50%); }
