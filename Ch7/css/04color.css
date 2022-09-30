@@ -11,6 +11,14 @@ body{
   
 /* ADD EXAMPLES BELOW */
 /*Add color name*/
+.black { color: black ; /* this is the default color */ }
+.red { color: red ; }
+.green { color: green ; }
+.blue { color: blue  ; }
+.olive { color: olivedrab ; }
+/* a note about "gray" vs "grey" */
+.gray { color: gray ; }
+.grey { color: grey ; /*but the property "color" can't be "colour" */ }
 
 
 /*Add color hex value */
