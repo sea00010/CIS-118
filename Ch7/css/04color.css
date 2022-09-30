@@ -4,11 +4,9 @@ body{
   }
   .container {width: 800px; margin: 0 auto;
   }
- 
  p, li{
  	line-height: 1.5em;
- }
-  
+ }  
 /* ADD EXAMPLES BELOW */
 /*Add color name*/
 .black { color: black ; /* this is the default color */ }
@@ -19,21 +17,21 @@ body{
 /* a note about "gray" vs "grey" */
 .gray { color: gray ; }
 .grey { color: grey ; /*but the property "color" can't be "colour" */ }
-
-
 /*Add color hex value */
+#hex .red{ color: #ff0000 ; }
+#hex .green{ color: #00ff00 ; }
+#hex .blue{ color: #0000ff ; }
+#hex .yellow{ color: #ffff00  ; }
+#hex .magenta{ color: #ff00ff  ; }
+#hex .cyan{ color: #00ffff  ; }
 
 
 /*Add color rgb value*/
 
-
 /*Add color rgba value*/
-
 
 /*Add color hsl value*/
 
-
 /*Add color hsla value*/
-
 
 /*Add text a text value*/
