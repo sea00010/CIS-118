@@ -31,7 +31,9 @@ body{
 /*Add color rgba value*/
 
 /*Add color hsl value*/
-
+#hsl .red{ color: hsl(0, 100%, 50%); }
+#hsl .green{ color: hsl(120, 100%, 50%); }
+#hsl .blue{ color: hsl(240, 100%, 50%); }
 /*Add color hsla value*/
 
 /*Add text a text value*/
