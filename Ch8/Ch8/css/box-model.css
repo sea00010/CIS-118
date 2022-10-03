@@ -7,5 +7,6 @@
 .box {
 	color:red;
 	border: 10px solid gray;
+	padding: 10%;
 }
 
