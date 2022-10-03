@@ -1,12 +1,15 @@
 /* demo css */
 .container {
-	width: 50%;
-	margin: 10% auto;
+	border 4px dashed lightblue;
 }
 /* write example css below */
 .box {
 	color: red;
 	border: 10px solid gray;
 	padding: 10%;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	margin-left: 10%;
 }
 
