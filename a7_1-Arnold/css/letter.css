@@ -11,7 +11,7 @@ div {
   margin: 20px;
 }
 #date {
-  text-allign: right;
+  text-align: right;
   font-size: 22px;
   line-height: 1.25;
 }
@@ -24,12 +24,12 @@ div {
   line-height: 1;
 }
 #farewell {
-  text-allign: right;
+  text-align: right;
   font-size: 26x;
   line-height: 1;
 }
 #signature {
-  text-allign: right;
+  text-align: right;
   font-size: 40px;
   line-height: 1;
 }
