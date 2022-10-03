@@ -39,7 +39,7 @@ footer {
   font-size: 12px;
   line-height: 1.25;
 }
-a { color: yellow; }
+a { font-color: yellow; }
 .misspelledText { text-decoration: line-through wavy; }
 .underlineText { text-decoration: underline; }
 .emphaticText {
