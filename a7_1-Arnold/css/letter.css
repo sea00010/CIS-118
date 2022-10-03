@@ -1,3 +1,8 @@
+body {
+font-family: "Lucida Handwriting", cursive; 
+font-size: 20px; 
+background-color: saddlebrown;
+}
 div {
   background-color: white;
   width: 600px;
@@ -5,4 +10,3 @@ div {
   padding: 50px;
   margin: 20px;
 }
-#cursiveFont { font-family: "Lucida Handwriting", cursive; }
