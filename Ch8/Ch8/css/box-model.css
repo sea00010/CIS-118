@@ -4,6 +4,7 @@
 	margin: 10% auto;
 }
 /* write example css below */
-.box{
+.box {
+	border-style: solid solid solid solid;
+}
 
-	}
