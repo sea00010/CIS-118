@@ -1,3 +1,5 @@
+* {
+  box-sizing: border-box;
 }
 .box{
   padding: 0;
@@ -15,13 +17,7 @@ a:visited { color: #649a00; }
 a:hover { color: #00638b; }
 a:active { color: #00638b; }
 a:focus { color: #00638b; }
-table, th, td{ border: 1px solid #333; }
-<!-- Delete this. I went back and can't find it in the instructions. Because I helped and I wasn't in front of the monitor, I missed this, so I won't count points off.-->
-li {
-    font-weight: bold;
-}
-}   
-    box-sizing: border-box;
+table, th, td{ border: 1px solid #333; } 
 #container { width: 60em; margin: 0 auto; }
 #header { margin-top: 20px; margin-bottom: 20px; }
 #header img {
