@@ -14,3 +14,9 @@ table, th, td{ border: 1px solid #333; }
 li {
     font-weight: bold;
 }
+}   
+    box-sizing: border-box;
+}
+.box{
+  padding: 0%;
+  margin: 0%;
