@@ -14,5 +14,6 @@ body{background: url(../images/layout_grid.gif);}
 .box{
 	background-color: gold;
 	width: 400px;
-	
+	border: 25px solid black;
+	padding 50px;	
 }
