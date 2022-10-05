@@ -22,7 +22,4 @@ li {
 }
 }   
     box-sizing: border-box;
-.container {
-   width: 60em;
-   margin: 0 auto;
-}
+#container { width: 60em; margin: 0 auto; }
