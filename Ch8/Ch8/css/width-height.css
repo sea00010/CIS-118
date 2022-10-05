@@ -13,4 +13,5 @@
         background-color: gold;
 	width: 250px;
 	height: 150px;
+	overflow: auto;
 }
