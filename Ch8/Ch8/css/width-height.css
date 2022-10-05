@@ -10,5 +10,6 @@
 }
 /* child container */
 .box{
-     background-color: gold;
+        background-color: gold;
+	width: 250px;
 }
