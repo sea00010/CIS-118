@@ -21,7 +21,7 @@ table, th, td{ border: 1px solid #333; }
 #container { width: 60em; margin: 0 auto; }
 #header { margin-top: 20px; margin-bottom: 20px; }
 #header img {
-   boder: 1px solid black;
+   border: 1px solid black;
    background-color: white;
    padding: 5 px;
 }
@@ -34,7 +34,7 @@ font-family: Georgia, serif;
 font-style: oblique;
 background-image: url(../images/bigquote.png);
 background-repeat: no-repeat;
-background-position: left 8%
+background-position: left 8%;
 }
 blockquote footer { display: block;
   font-size: .4em;
