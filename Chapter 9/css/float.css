@@ -29,3 +29,6 @@ scroll down to enter in example code
 img {
 	float: none;
 }
+.main img {
+	float: left;
+}
