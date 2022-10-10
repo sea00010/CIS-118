@@ -3,5 +3,8 @@
 The reset should always come before any other CSS you add
 */
 * {	margin: 0;	padding: 0;}
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
