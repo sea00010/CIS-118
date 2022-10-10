@@ -35,3 +35,7 @@ img {
 .sidebar img {
 	float: right;
 }
+.main {
+	float: left;
+	width: 620px;
+}
