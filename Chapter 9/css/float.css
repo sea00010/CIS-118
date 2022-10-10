@@ -32,3 +32,6 @@ img {
 .main img {
 	float: left;
 }
+.sidebar img {
+	float: right;
+}
