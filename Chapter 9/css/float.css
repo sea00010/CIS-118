@@ -65,3 +65,10 @@ img {
   clear: both;
   display: table;
 }
+.primary {
+	overflow: auto;
+	width: 100%;
+}
+.primary {
+	overflow: auto;
+}
