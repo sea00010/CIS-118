@@ -43,3 +43,10 @@ img {
 	float: right;
 	width: 290px
 }
+.main {
+	float: left;
+	width: 620px;
+}
+.main img {
+	float: inherit;
+}
