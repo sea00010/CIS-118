@@ -40,7 +40,7 @@ element {position: absolute}
 }
 
 .container{
-
+  position: relative;
 }
 
 
