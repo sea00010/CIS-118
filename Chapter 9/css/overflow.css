@@ -1,6 +1,3 @@
-/* OVERFLOW
-demo default CSS [don't touch] 
--------------------------------------------------- */
 .container{width:630px;margin:0 auto}
 .characters{background:#333;}
 .group:after{
@@ -14,10 +11,16 @@ demo default CSS [don't touch]
 	margin-left: 5px;
 }
 .box img { float: inherit; }
+.box {
+	height: 300 px;
+}
+batman {
+	overflow: scroll;
+}
+batman {
+	overflow: auto;
+}
+.robin {
+	overflow: hidden;
+}
 
-
-
-/* ============= ENTER EXAMPLE CODE BELOW ============= */
-
-/* OVERFLOW
------------------------------------------------*/
