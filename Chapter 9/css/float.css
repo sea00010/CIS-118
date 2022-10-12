@@ -54,3 +54,9 @@ img {
 .footer {
 	clear: left;
 }
+.footer {
+	clear: right;
+}
+.footer {
+	clear: both;
+}
