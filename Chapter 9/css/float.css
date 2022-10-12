@@ -60,3 +60,8 @@ img {
 .footer {
 	clear: both;
 }
+.group:after {
+ content: "";
+  clear: both;
+  display: table;
+}
