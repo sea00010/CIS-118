@@ -26,14 +26,17 @@ element {position: relative}
 -------------------------------------------------- */
 .second{
   position: relative;
-  
+  top: -20px;
+  left: 50px;
 }
 
 /* ABSOLUTE 
 element {position: absolute}
 -------------------------------------------------- */
 .third{
-
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 
 .container{
