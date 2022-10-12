@@ -25,7 +25,8 @@ element {position: static}
 element {position: relative}
 -------------------------------------------------- */
 .second{
-
+  position: relative;
+  
 }
 
 /* ABSOLUTE 
