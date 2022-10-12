@@ -34,6 +34,7 @@ img {
 }
 .sidebar img {
 	float: right;
+	width: 290px;
 }
 .main {
 	float: left;
@@ -49,4 +50,7 @@ img {
 }
 .main img {
 	float: inherit;
+}
+.footer {
+	clear: left;
 }
