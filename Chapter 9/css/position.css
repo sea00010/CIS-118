@@ -55,6 +55,6 @@ element {position: fixed}
 }
 
 body {
-
+  min-height: 800px;
 }
 
