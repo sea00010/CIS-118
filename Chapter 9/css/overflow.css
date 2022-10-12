@@ -12,7 +12,7 @@
 }
 .box img { float: inherit; }
 .box {
-	height: 300 px;
+	height: 300px;
 }
 batman {
 	overflow: scroll;
