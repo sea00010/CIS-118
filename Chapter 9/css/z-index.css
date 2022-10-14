@@ -41,6 +41,8 @@ Enter example code below
 }
 
 .third{
-	position: absolute; /* browser default */
-	z-index:auto; /* browser default */
+	position: absolute;
+	top:20px;
+	left:200px;/* browser default */
+	z-index:-1; /* browser default */
 }
