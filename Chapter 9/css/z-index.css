@@ -33,7 +33,7 @@ Enter example code below
 }
 .first{
 	position: relative; /* browser default */
-	z-index:auto; /* browser default */
+	z-index:1; /* browser default */
 }
 .second{
 	position: absolute; /* browser default */
