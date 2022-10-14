@@ -41,7 +41,7 @@ override previous display values
 display: inline-block
 -------------------------------------------------- */
 em,dd {
-
+display: inline-block;
   }
 
 
