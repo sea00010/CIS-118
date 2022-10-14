@@ -28,19 +28,19 @@ there is no measurement unit (eg. px, em, pt, etc...) that goes after the number
 Enter example code below
 -------------------------------------------------- */
 .content{
-	position: static; /* browser default */
+	position: relative; /* browser default */
 	z-index:auto; /* browser default */
 }
 .first{
-	position: static; /* browser default */
+	position: relative; /* browser default */
 	z-index:auto; /* browser default */
 }
 .second{
-	position: static; /* browser default */
+	position: absolute; /* browser default */
 	z-index:auto; /* browser default */
 }
 
 .third{
-	position: static; /* browser default */
+	position: absolute; /* browser default */
 	z-index:auto; /* browser default */
 }
