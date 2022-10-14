@@ -16,7 +16,10 @@ em{background:yellow; color: #333}
 inline to block
 -------------------------------------------------- */
 em{
-
+margin: 20px 10px 20px 0;
+ padding: 10px;
+ text-align: right;
+ line-height: 2.5 em;
 }
 
 /*
