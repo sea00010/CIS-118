@@ -9,6 +9,6 @@ li a:link {background-color: #333; color: #eee; }
 li a:visited {background-color: #333; color: #eee; }
 li a:active {background-color: #333; color: #eee; }
 li a:hover {background-color: #aaa; }
-li a .html {background-image: url("images/icon-html.png"); background-repeat: no-repeat; background-position: center 50%; }
-li a .css {background-image: url("images/icon-css.png"); background-repeat: no-repeat; background-position: center 50%; }
-li a .js {background-image: url("images/icon-js.png"); background-repeat: no-repeat; background-position: center 50%; }
+li.html a {background-image: url("../images/icon-html.png"); background-repeat: no-repeat; background-position: center 50%; }
+li.css a {background-image: url("../images/icon-css.png"); background-repeat: no-repeat; background-position: center 50%; }
+li.js a {background-image: url("../images/icon-js.png"); background-repeat: no-repeat; background-position: center 50%; }
