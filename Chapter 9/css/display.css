@@ -32,7 +32,7 @@ dd{
   margin: 10px 2px 10px 2px; /* only block elements can have margin on all four sides */
   padding: 5px; /* padding will be applied on all four sides */
   height: 50px; /* only block elements can have height */
-
+  display: inline;
 }
 
 
