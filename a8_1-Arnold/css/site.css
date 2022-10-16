@@ -1,3 +1,4 @@
+<!--Sam, take these two CSS rules (lines 2-8) and combine them. The instructions said nothing about a class value of box.-->
 * {
   box-sizing: border-box;
 }
@@ -21,8 +22,8 @@ table, th, td{ border: 1px solid #333; }
 #container { width: 60em; margin: 0 auto; }
 #header { margin-top: 20px; margin-bottom: 20px; }
 #header img {
-   border: 1px solid black;
-   background-color: white;
+   border: 1px solid black; <!--He told you to use the hex value for black. Change it.-->
+   background-color: white; <!--He told you to use the hex value for white. Change it.-->
    padding: 5px;
 }
 blockquote { font-size: 2.5em;
