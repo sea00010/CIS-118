@@ -27,3 +27,6 @@
 	margin: 0 10px;
 	clear: both;
 }
+* {
+	box-sizing: border-box;
+}
