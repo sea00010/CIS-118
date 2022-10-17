@@ -22,3 +22,8 @@
 	margin: 0 10px;
 	float: left;
 }
+.footer {
+	width: 940px;
+	margin: 0 10px;
+	clear: both;
+}
