@@ -68,3 +68,12 @@
 	width: 90%;
 	margin: 0 auto;
 }
+body {
+	margin: 0;
+	min-width: 320px;
+}
+.container {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
