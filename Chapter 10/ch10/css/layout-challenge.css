@@ -39,3 +39,8 @@
 	display: block;
 	clear: both;
 }
+.col-3{
+	width: 300px;
+	margin: 0 10px;
+	float: left;
+}
