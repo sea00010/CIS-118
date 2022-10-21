@@ -40,16 +40,16 @@ img {
   width: 100%;
 }
 @media screen and (max-width: 800px) {
-  #fluid > .container {
+  fluid > container {
     width: 90%;
     min-width: 0;
   }
- #fluid > #main {
+ fluid > main {
    width: auto;
    float: none;
    background-color: #fff;
   }
- #fluid > .secondary {
+ #fluid > secondary {
    width: auto;
    float: none;
   }
