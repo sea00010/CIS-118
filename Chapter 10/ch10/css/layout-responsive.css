@@ -26,15 +26,15 @@ img {
 	clear: both;
 }
 @media sceen and (max-width: 800px) {
-	.header {
-		width: auto;
-		float: none;
-	}
-	.navbar {
-		width: auto;
-		float: none;
-	}
-	.navbar ul {
-		margin-bottom: 0;
-	}
+.header {
+	width: auto;
+	float: none;
+}
+.navbar {
+	width: auto;
+	float: none;
+}
+.navbar ul {
+	margin-bottom: 0;
+}
 }
