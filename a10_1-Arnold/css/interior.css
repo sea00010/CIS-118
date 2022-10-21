@@ -30,7 +30,7 @@ dd {
   margin-left: 1%;
   float: left;
 }
-#fluid > #secondary {
+#fluid > secondary {
   width: 31%;
   margin-right: 1%;
   margin-left: 1%;
@@ -40,4 +40,17 @@ img {
   width: 100%;
 }
 @media screen and (max-width: 800px) {
-  #fluid >
+  #fluid > .container {
+    width: 90%;
+    min-width: 0;
+  }
+ #fluid > #main {
+   width: auto;
+   float: none;
+   background-color: #fff;
+  }
+ #fluid > #secondary {
+   width: auto;
+   float: none;
+  }
+}
