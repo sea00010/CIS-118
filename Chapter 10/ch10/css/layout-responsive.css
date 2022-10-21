@@ -47,5 +47,6 @@ img {
 .secondary {
 	width: auto;
 	float: none;
+	overflow: auto;
 }
 }
