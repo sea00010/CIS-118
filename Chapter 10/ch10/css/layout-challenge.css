@@ -1,14 +1,61 @@
+/*
+	=Fixed LAYOUT 
+	 WRITE YOUR CSS RULES BELOW
+--------------------------------------*/
+.container {
+	width:960px;
+	margin: 0 auto; /*center layout */
+}
+.header{
+	width: 460px;
+	float: left;
+	margin: 0 10px;
+}
+.navbar{
+	width: 460px;
+	float: left;
+	margin: 0 10px;
+}
+.primary{
+	width: 620px;
+	float: left;
+	margin: 0 10px;
+}
+.secondary {
+	width: 300px;
+	float: left;
+	margin: 0 10px;
+}
+.footer{
+	width: 940px;
+	margin: 0 10px;
+}
+/*clearing nested floats in containing element */
+/*
+ .group{
+	width: 100%;
+	overflow: auto;
+}
+*/
+.group:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.col-3{
+	width: 300px;
+	margin: 0 10px;
+	float: left;
+}
 /*	Fluid Layout Challenge
 	=LAYOUT 
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
-
 /* make sure the layout doesn't get any smaller than 320px */
 body {
   margin: 0;
   min-width: 320px;
 }
-
 /* make sure the layout doesn't get any larger than 960px */
 .container {
 	width:90%;/* arbitrary starting point for 960px */
@@ -57,11 +104,8 @@ img{
 	display: table;
 	clear: both;
 }
-
-
 .col-3 {
 	width: 31.25%; /* 300px / 960 */
 	margin: 0 1.0416667%; /* 10px;*/
 	float: left;
 }
-
