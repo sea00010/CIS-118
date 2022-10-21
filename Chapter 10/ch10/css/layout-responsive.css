@@ -2,45 +2,34 @@
 	=LAYOUT 
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
+@media screen and (max-width: 960px) {
+img {
+	max-width: 100%
+}
 .container {
-	width:960px;
-	margin: 0 auto;
+	width:90%;
+	point for 960px
 }
 .header{
-	width: 460px;
-	margin: 0 10px;
-	float: left;
+	width: 47.9166667%;
+	margin: 0 1.0416667;
 }
-.navbar{
-	width: 460px;
-	margin: 0 10px;
-	float: left;
-}
-
 .primary{
-	width: 620px;
-	margin: 0 10px;
-	float: left;
+	width: 64.5833333%;
+	margin: 0 1.0416667%;
+        background: lightblue;
 }
 .secondary {
-	width: 300px;
-	margin: 0 10px;
-	float: left;
+	width: 31.25%;
+	margin: 0 1.0416667%;
+	background: lightsalmon;
 }
 .footer{
-	width: 940px;
-	margin: 0 10px;
+	width: 97.9166667%;
+	margin: 0 1.0416667%;
 	clear: both;
 }
-
-/*clearing nested floats in containing element */
-
-.group:after{
-	content: " ";
-	display: block;
-	clear: both;
 }
-
 
 /* 
 	=RESPONSIVE LAYOUT 
