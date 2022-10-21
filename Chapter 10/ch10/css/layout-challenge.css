@@ -1,46 +1,67 @@
-/*
+/*	Fluid Layout Challenge
 	=LAYOUT 
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
-.container{
-	width: 960px;
-	margin:0px auto; /* centers content on screen */
+
+/* make sure the layout doesn't get any smaller than 320px */
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+/* make sure the layout doesn't get any larger than 960px */
+.container {
+	width:90%;/* arbitrary starting point for 960px */
+	max-width: 960px;
+	margin: 0 auto; /*center layout */
+}
+/* add in for fluid image */
+img{
+	max-width: 100%;
 }
 .header{
-	width: 460px;
-	margin: 0 10px;
+	width: 47.9166667%; /* 460px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
 	float: left;
 }
 .navbar{
-	width: 460px;
-	margin: 0 10px;
+	width: 47.9166667%; /* 460px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
 	float: left;
 }
-
 .primary{
-	width: 620px;
-	margin: 0 10px;
+	width: 64.5833333%; /* 620px/960px */
+	margin: 0 1.0416667%; /* 10px;*/
 	float: left;
 }
 .secondary {
-	width: 300px;
-	margin: 0 10px;
+	width: 31.25%; /* 300px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
 	float: left;
 }
 .footer{
-	width: 940px;
-	margin: 0 10px;
-	clear: both; /*use this value to clear floats above container */
-}
-/*clearing nested floats in containing element */
-
-.group:after{
-	content: " ";
-	display: block;
+	width: 97.9166667%; /* 940px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
 	clear: both;
 }
-.col-3{
-	width: 300px;
-	margin: 0 10px;
+/*clearing nested floats in containing element */
+/*
+.group{
+	width: 100%;
+	overflow: auto;
+}
+*/
+/* We are using the W3Schools Modern Clearfix solution */
+.group:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.col-3 {
+	width: 31.25%; /* 300px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
 	float: left;
 }
+
