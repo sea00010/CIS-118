@@ -1,16 +1,16 @@
 .content {
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
   background-color: #EEE;
   overflow: auto;
 }
 #main {
-  width: 620px;
+  width: 90%;
   margin-right: 10px;
   margin-left: 10px;
   float: left;
 }
-secondary {
-  width: 300px;
+#secondary {
+  width: auto;
   margin-right: 10px;
   margin-left: 10px;
   float: left;
@@ -19,10 +19,10 @@ dd {
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
-#fluid > .container {
-  width: 90%;
+#fluid > #container {
+  width: auto;
   max-width: 960px;
-  min-width: 650px;
+  min-width: auto;
 }
 #fluid > #main {
   width: 65%;
@@ -30,7 +30,7 @@ dd {
   margin-left: 1%;
   float: left;
 }
-#fluid > .secondary {
+#fluid > #secondary {
   width: 31%;
   margin-right: 1%;
   margin-left: 1%;
@@ -39,17 +39,17 @@ dd {
 img {
   width: 100%;
 }
-@media screen and (max-width: 800px) {
-  fluid > container {
-    width: 90%;
+@media only screen and (max-width: 500px) {
+  #fluid > #container {
+    width: auto;
     min-width: 0;
   }
- fluid > main {
+ #fluid > #main {
    width: auto;
    float: none;
    background-color: #fff;
   }
- #fluid > secondary {
+ #fluid > #secondary {
    width: auto;
    float: none;
   }
