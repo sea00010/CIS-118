@@ -56,7 +56,7 @@ dd {
 img {
   width: 100%;
 }
-@media screen and (max-width: 800px){
+@media and screen (max-width: 800px){
   #fluid #container {
     width: 90%;
     min-width: 0;
