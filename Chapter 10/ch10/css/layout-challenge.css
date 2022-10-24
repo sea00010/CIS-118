@@ -1,5 +1,5 @@
 /*
-	=Fixed LAYOUT 
+	=FIXED LAYOUT 
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
 .container {
@@ -47,65 +47,87 @@
 	margin: 0 10px;
 	float: left;
 }
-/*	Fluid Layout Challenge
-	=LAYOUT 
-	 WRITE YOUR CSS RULES BELOW
+/* 
+	=RESPONSIVE LAYOUT 
 --------------------------------------*/
-/* make sure the layout doesn't get any smaller than 320px */
-body {
-  margin: 0;
-  min-width: 320px;
+/* for 960 or less*/
+/* Bring back our FLUID LAYOUT */
+/* for 960 or less or 60em (960 / 16) */
+@media screen and (max-width:60em){
+	/* fluid grid goes here */
+	img{
+		max-width: 100%;
+	}
+	.container{
+		width:90%;/* arbitrary starting point for 960px */
+	}
+	.header{
+		width: 47.9166667%; /* 460px / 960 */
+		margin: 0 1.0416667%; /* 10px / 960 */
+	}
+	.navbar{
+		width: 47.9166667%; /* 460px / 960 */
+		margin: 0 1.0416667%; /* 10px / 960 */
+	}
+	.primary{
+		width: 64.5833333%; /* 620px / 960px */
+		margin: 0 1.0416667%; /* 10px / 960 */
+		background: lightblue; /* change background to view layout change*/
+	}
+	.secondary{
+		width: 31.25%; /* 300px / 960 */
+		margin: 0 1.0416667%; /* 10px / 960 */
+		background: lightsalmon; /* change background to view layout change*/
+	}
+	.footer{
+		width: 97.9166667%; /* 940px / 960 */
+		margin: 0 1.0416667%; /* 10px / 960 */
+	}
+	.col-3{
+		width: 31.25%; /* 300px / 960 */
+		margin: 0 1.0416667%; /* 10px / 960 */
+	}
 }
-/* make sure the layout doesn't get any larger than 960px */
-.container {
-	width:90%;/* arbitrary starting point for 960px */
-	max-width: 960px;
-	margin: 0 auto; /*center layout */
+/* we can add more media rules */
+/* for 800 or less or 50em */
+@media screen and (max-width:50em){
+	.header{
+	width: auto;
+	float: none;
+	margin: 0;
+	}
+	.navbar{
+	width: auto;
+	float: none;
+	margin: 0;
+	}
+	.navbar ul{
+	margin: 0;
+	}
 }
-/* add in for fluid image */
-img{
-	max-width: 100%;
-}
-.header{
-	width: 47.9166667%; /* 460px / 960 */
-	margin: 0 1.0416667%; /* 10px;*/
-	float: left;
-}
-.navbar{
-	width: 47.9166667%; /* 460px / 960 */
-	margin: 0 1.0416667%; /* 10px;*/
-	float: left;
-}
-.primary{
-	width: 64.5833333%; /* 620px/960px */
-	margin: 0 1.0416667%; /* 10px;*/
-	float: left;
-}
-.secondary {
-	width: 31.25%; /* 300px / 960 */
-	margin: 0 1.0416667%; /* 10px;*/
-	float: left;
-}
-.footer{
-	width: 97.9166667%; /* 940px / 960 */
-	margin: 0 1.0416667%; /* 10px;*/
-	clear: both;
-}
-/*clearing nested floats in containing element */
-/*
-.group{
-	width: 100%;
+/* for 700px (43.75em) or less*/
+@media screen and (max-width:43.75em){
+	.primary{
+	width: auto;
+	float: none;
+	}
+	.secondary{
+	width: auto;
+	float: none;
 	overflow: auto;
+	}
+	.col-3{
+	width: auto;
+	float: none;	
+	}
 }
-*/
-/* We are using the W3Schools Modern Clearfix solution */
-.group:after{
-	content: "";
-	display: table;
-	clear: both;
-}
-.col-3 {
-	width: 31.25%; /* 300px / 960 */
-	margin: 0 1.0416667%; /* 10px;*/
-	float: left;
+/* for 480  (or 30em) or less*/
+@media screen and (max-width:30em){
+	body {
+	margin: 0;
+	min-width: 320px;
+	}
+	img{
+	display: none;
+	}
 }
