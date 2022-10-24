@@ -19,18 +19,18 @@ dd {
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
-#fluid > #container {
+#container {
   width: auto;
   max-width: 960px;
   min-width: auto;
 }
-#fluid > #main {
+#main {
   width: 65%;
   margin-right: 1%;
   margin-left: 1%;
   float: left;
 }
-#fluid > #secondary {
+#secondary {
   width: 31%;
   margin-right: 1%;
   margin-left: 1%;
@@ -39,7 +39,7 @@ dd {
 img {
   width: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   #fluid > #container {
     width: auto;
     min-width: 0;
