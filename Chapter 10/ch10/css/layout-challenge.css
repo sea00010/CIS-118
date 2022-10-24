@@ -37,75 +37,75 @@
 	float: left;
 }
 @media screen and (max-width:60em){
-	img{
-		max-width: 100%;
-	}
-	.container{
-		width:90%;/* arbitrary starting point for 960px */
-	}
-	.header{
-		width: 47.9166667%; /* 460px / 960 */
-		margin: 0 1.0416667%; /* 10px / 960 */
-	}
-	.navbar{
-		width: 47.9166667%; /* 460px / 960 */
-		margin: 0 1.0416667%; /* 10px / 960 */
-	}
-	.primary{
-		width: 64.5833333%; /* 620px / 960px */
-		margin: 0 1.0416667%; /* 10px / 960 */
-		background: lightblue; /* change background to view layout change*/
-	}
-	.secondary{
-		width: 31.25%; /* 300px / 960 */
-		margin: 0 1.0416667%; /* 10px / 960 */
-		background: lightsalmon; /* change background to view layout change*/
-	}
-	.footer{
-		width: 97.9166667%; /* 940px / 960 */
-		margin: 0 1.0416667%; /* 10px / 960 */
-	}
-	.col-3{
-		width: 31.25%; /* 300px / 960 */
-		margin: 0 1.0416667%; /* 10px / 960 */
+img{
+	max-width: 100%;
+}
+.container{
+	width:90%;/* arbitrary starting point for 960px */
+}
+.header{
+	width: 47.9166667%; /* 460px / 960 */
+	margin: 0 1.0416667%; /* 10px / 960 */
+}
+.navbar{
+	width: 47.9166667%; /* 460px / 960 */
+	margin: 0 1.0416667%; /* 10px / 960 */
+}
+.primary{
+	width: 64.5833333%; /* 620px / 960px */
+	margin: 0 1.0416667%; /* 10px / 960 */
+	background: lightblue; /* change background to view layout change*/
+}
+.secondary{
+	width: 31.25%; /* 300px / 960 */
+	margin: 0 1.0416667%; /* 10px / 960 */
+	background: lightsalmon; /* change background to view layout change*/
+}
+.footer{
+	width: 97.9166667%; /* 940px / 960 */
+	margin: 0 1.0416667%; /* 10px / 960 */
+}
+.col-3{
+	width: 31.25%; /* 300px / 960 */
+	margin: 0 1.0416667%; /* 10px / 960 */
 	}
 }
 @media screen and (max-width:50em){
-	.header{
+.header{
 	width: auto;
 	float: none;
 	margin: 0;
-	}
-	.navbar{
+}
+.navbar{
 	width: auto;
 	float: none;
 	margin: 0;
-	}
-	.navbar ul{
+}
+.navbar ul{
 	margin: 0;
-	}
+}
 }
 @media screen and (max-width:43.75em){
-	.primary{
+.primary{
 	width: auto;
 	float: none;
-	}
-	.secondary{
+}
+.secondary{
 	width: auto;
 	float: none;
 	overflow: auto;
-	}
-	.col-3{
+}
+.col-3{
 	width: auto;
 	float: none;	
 	}
 }
 @media screen and (max-width:30em){
-	body {
+body {
 	margin: 0;
 	min-width: 320px;
-	}
-	img{
+}
+img{
 	display: none;
 	}
 }
