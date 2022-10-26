@@ -14,5 +14,6 @@ nav[role="navigation"] ul {
 padding: 0;
     	text-align: center;
 }
-
-
+nav[role="navigation"] li {
+    display: inline;
+}
