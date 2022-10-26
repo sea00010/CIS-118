@@ -8,14 +8,13 @@ nav[role="navigation"] a {
     text-decoration: none;
 }
 nav[role="navigation"] ul {
-  	width: 18.3333333%; /* 220px ÷ 1200px */
+  	width: 18.3333333%; 
   	float: right;
-  	list-style: none; /* removes the bullets */
-  	padding: 0; /* removes the padding that 
-indents the li elements */
+  	list-style: none; 
+  	padding: 0; 
   	margin-top: 0;
-  	margin-right: .8333333%; /* 10 ÷ 1200 */
-  	margin-left: .8333333%; /* 10 ÷ 1200 */
+  	margin-right: .8333333%; 
+  	margin-left: .8333333%; 
   	border-left: 1px solid #aaa;
   	text-align: right;
 }
