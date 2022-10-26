@@ -39,3 +39,7 @@ nav[role="navigation"] ul {
   	border-left: 1px solid #aaa;
   	text-align: right;
 }
+current a {
+  	color: #333;
+ 	 background: #ddd;
+}
