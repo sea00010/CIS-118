@@ -7,3 +7,15 @@ div[role="main"] .primary{margin:0 .8333333%; color: #bbb;}
 nav[role="navigation"] a {
     text-decoration: none;
 }
+nav[role="navigation"] ul {
+  	width: 18.3333333%; /* 220px ÷ 1200px */
+  	float: right;
+  	list-style: none; /* removes the bullets */
+  	padding: 0; /* removes the padding that 
+indents the li elements */
+  	margin-top: 0;
+  	margin-right: .8333333%; /* 10 ÷ 1200 */
+  	margin-left: .8333333%; /* 10 ÷ 1200 */
+  	border-left: 1px solid #aaa;
+  	text-align: right;
+}
