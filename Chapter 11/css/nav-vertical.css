@@ -27,6 +27,14 @@ nav[role="navigation"] ul {
   	/* 10 ÷ 1200 */
   	border-right: 1px solid #aaa;
 }
+nav[role="navigation"] ul a {
+  	display: block; /* block elements
+span the whole width*/
+  	padding: 6px 0; /*adds clickable
+space above & below the text */
+  	font-weight: bold; /* highlight
+links a bit more */
+}
 
 
 /* Vertical Navigation Styling
