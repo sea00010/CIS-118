@@ -32,3 +32,10 @@ current a {
   	color: #333;
  	 background: #ddd;
 }
+@media screen and (max-width: 40em) {
+  	nav[role="navigation"] ul {
+    		float: none;
+    		width: auto;
+    		border-right: none;
+  	}
+}
