@@ -35,6 +35,13 @@ space above & below the text */
   	font-weight: bold; /* highlight
 links a bit more */
 }
+nav[role="navigation"] ul a:focus,
+nav[role="navigation"] ul a:hover {
+  	background: #ddd;
+}
+nav[role="navigation"] ul a:active {
+  background: #ddd;
+}
 
 
 /* Vertical Navigation Styling
