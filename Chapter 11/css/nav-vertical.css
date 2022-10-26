@@ -6,6 +6,12 @@ a,a:link		{color: #38adda;}
 a:visited		{color: #2d8db2;}
 a:focus,a:hover	{color: #333333;}
 a:active		{color: #911;}
+div[role="main"] .primary {
+  width:78.3333333%;
+  /* 940px ÷ 1200px */
+  float:left;
+}
+
 
 /* Vertical Navigation Styling
 ------------------------------------ */
