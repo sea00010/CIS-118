@@ -39,3 +39,10 @@ current a {
     		border-right: none;
   	}
 }
+div[role="main"] .primary {
+  	float: none;
+  	width: auto;
+}
+nav[role="navigation"] ul li a {
+  	border-bottom: 1px solid #ccc;
+}
