@@ -11,6 +11,22 @@ div[role="main"] .primary {
   /* 940px ÷ 1200px */
   float:left;
 }
+nav[role="navigation"] ul {
+  	width: 18.3333333%;
+  	/* 220px ÷ 1200px */
+  	float: left;
+  	list-style: none;
+  	/* removes the bullets */
+  	padding: 0;
+  	/* removes the padding that
+  	indents the li elements */
+  	margin-top: 0;
+  	margin-right: .8333333%;
+  	/* 10 ÷ 1200 */
+  	margin-left: .8333333%;
+  	/* 10 ÷ 1200 */
+  	border-right: 1px solid #aaa;
+}
 
 
 /* Vertical Navigation Styling
