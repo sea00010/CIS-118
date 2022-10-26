@@ -1,39 +1,25 @@
-
-	
-/*Link style order: LoVHAte
------------------------------------- */
 a,a:link		{color: #38adda;}
 a:visited		{color: #2d8db2;}
 a:focus,a:hover	{color: #333333;}
 a:active		{color: #911;}
 div[role="main"] .primary {
   width:78.3333333%;
-  /* 940px ÷ 1200px */
   float:left;
 }
 nav[role="navigation"] ul {
   	width: 18.3333333%;
-  	/* 220px ÷ 1200px */
   	float: left;
   	list-style: none;
-  	/* removes the bullets */
   	padding: 0;
-  	/* removes the padding that
-  	indents the li elements */
   	margin-top: 0;
   	margin-right: .8333333%;
-  	/* 10 ÷ 1200 */
   	margin-left: .8333333%;
-  	/* 10 ÷ 1200 */
   	border-right: 1px solid #aaa;
 }
 nav[role="navigation"] ul a {
-  	display: block; /* block elements
-span the whole width*/
-  	padding: 6px 0; /*adds clickable
-space above & below the text */
-  	font-weight: bold; /* highlight
-links a bit more */
+  	display: block; 
+  	padding: 6px 0; 
+  	font-weight: bold; 
 }
 nav[role="navigation"] ul a:focus,
 nav[role="navigation"] ul a:hover {
@@ -42,7 +28,3 @@ nav[role="navigation"] ul a:hover {
 nav[role="navigation"] ul a:active {
   background: #ddd;
 }
-
-
-/* Vertical Navigation Styling
------------------------------------- */
