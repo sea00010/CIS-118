@@ -24,7 +24,7 @@ nav[role="navigation"] a {
 }
 A:active { color: #333; background: #F7A36; }
 h1 {
-  width: 48.3333333%;   /* 580px ÷ 1200px */
+  width: 48.3333333%;   
   float: left;
 }
 nav[role="navigation"] ul {
