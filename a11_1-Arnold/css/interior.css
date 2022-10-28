@@ -19,6 +19,34 @@ dd {
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
+#header {
+  float: left;
+  width: 280px;
+}
+ul.nav {
+  background-color: transparent;
+  float: right;
+  width: 350px;
+  margin-top: 20px;
+}
+ul.nav li {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ddd;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  text-decoration: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+ul.nav a:hover {
+  background-color: #fff;
+}
+.content {
+  clear: both;
+}
 #container {
   width: auto;
   max-width: 960px;
@@ -85,32 +113,4 @@ img {
 }
 #container {
   position: relative;
-}
-#header {
-  float: left;
-  width: 280px;
-}
-ul.nav {
-  background-color: transparent;
-  float: right;
-  width: 350px;
-  margin-top: 20px;
-}
-ul.nav li {
-  display: block;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #ddd;
-  border-radius: 4px;
-  border: 1px solid #aaa;
-  text-decoration: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-}
-ul.nav a:hover {
-  background-color: #fff;
-}
-.content {
-  clear: both;
 }
