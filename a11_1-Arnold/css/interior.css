@@ -70,7 +70,7 @@ img {
    width: auto;
    float: none;
   }   
- #fluid nav {
+ #fluid #nav {
    margin-top: 0;
    width: 98%;
    padding-top: 4px;
@@ -78,7 +78,7 @@ img {
    padding-bottom: 4px;
    padding-left: 4px;
   }
- #fluid nav li {
+ #fluid #nav li {
    display: block;
    text-allign: center;
   }
