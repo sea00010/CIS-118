@@ -71,10 +71,10 @@ img {
    float: none;
   }
 }
-.container {
+#container {
   position: relative;
 }
-.header {
+#header {
   float: left;
   width: 280px;
 }
