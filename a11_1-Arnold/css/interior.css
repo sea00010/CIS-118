@@ -69,6 +69,15 @@ img {
  #fluid #secondary {
    width: auto;
    float: none;
+  }   
+ #fluid nav {
+   margin-top: 0;
+   width: 98%;
+   padding: 4px;
+  }
+ #fluid nav li {
+   display: block;
+   text-allign: center;
   }
 }
 #container {
