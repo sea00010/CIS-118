@@ -1,13 +1,7 @@
-/*Link style order: LoVHAte
------------------------------------- */
 a,a:link		{color: #38adda;}
 a:visited		{color: #2d8db2;}
 a:focus,a:hover	{color: #efefef;background:#333;}
 a:active		{color: #333; background:#F7A236;}
-
-/*
-	Horiztonal Navigation bar
------------------------------------- */
 .menu ul{
     border:1px solid #ccc;
     border-width:1px 0;
@@ -16,13 +10,43 @@ a:active		{color: #333; background:#F7A236;}
     padding:0;
     text-align:center;
 }
-
 .menu a{
     display:inline-block;
     padding:10px;
 }
-
-/*
-	Drop-Down Styles
------------------------------------- */
-
+.menu ul{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.menu a{
+    display:inline-block;
+    padding:10px;
+}
+.menu > ul > li {
+    display: inline-block;
+}
+li.has-submenu {
+	position: relative;
+}
+.dropdown-toggle:after{
+	content: " +";
+}
+.menu li > ul {
+	Border: 1px solid #ccc;
+    	display: none;
+	position: absolute;
+	top: 100%;
+}
+.menu li:hover ul {
+	display: block;
+}
+.sub-menu li a{
+	border-bottom:1px solid #ccc;
+}
+li.has-submenu:hover{
+	background:#ddd;
+}
