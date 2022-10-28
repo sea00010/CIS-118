@@ -22,3 +22,26 @@ nav[role="navigation"] a {
   	padding: 0 .625em;
   	line-height: 2.75em;
 }
+A:active { color: #333; background: #F7A36; }
+h1 {
+  width: 48.3333333%;   /* 580px ÷ 1200px */
+  float: left;
+}
+nav[role="navigation"] ul {
+  width: 48.3333333%;   
+  float: left;
+  margin-top: 10px;
+}
+@media screen and (max-width:43.375em) {
+  	h1, nav[role="navigation"] ul {
+    		width: auto;
+    		float: none;
+    		margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 22.5em) {
+  nav[role="navigation"] li a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+  }
+}
