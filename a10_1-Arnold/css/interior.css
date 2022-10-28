@@ -53,7 +53,7 @@ dd {
    margin-left: 1%;
    float: left;
 }
-img {
+#fluid img {
   width: 100%;
 }
 @media and screen (max-width: 800px){
