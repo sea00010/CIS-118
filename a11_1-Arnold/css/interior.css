@@ -73,7 +73,10 @@ img {
  #fluid nav {
    margin-top: 0;
    width: 98%;
-   padding: 4px;
+   padding-top: 4px;
+   padding-right: 4px;
+   padding-bottom: 4px;
+   padding-left: 4px;
   }
  #fluid nav li {
    display: block;
