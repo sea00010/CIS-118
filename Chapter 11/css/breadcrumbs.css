@@ -1,17 +1,15 @@
-/*Link style order: LoVHAte
------------------------------------- */
-a,a:link		{color: #aaa;}
-a:visited		{color: #aaa;}
-a:focus,a:hover	{color: #38adda;}
-a:active		{color: #333;}
-
-
-
-
-/*http://css-tricks.com/snippets/html/glyphs/*/
-/* add the È after each list item */
-
-
-
-/*remove the content after the last list item */
-
+a,a:link{color: #aaa;}
+a:visited{color: #aaa;}
+a:focus,a:hover{color: #38adda;}
+a:active{color: #333;}
+breadcrumb li{
+    display:inline;
+list-style:none;
+}
+.breadcrumb .current{font-weight: bold;}
+.breadcrumb li:after{
+	content: " \00bb";
+}
+.breadcrumb li:last-child:after{
+	content:"";
+}
