@@ -78,13 +78,13 @@ img {
   float: left;
   width: 280px;
 }
-nav ul {
+ul.nav {
   background-color: transparent;
   float: right;
   width: 350px;
   margin-top 20px;
 }
-li > nav ul {
+ul.nav li {
   display: block;
   padding-top: 5px;
   padding-bottom: 5px;
