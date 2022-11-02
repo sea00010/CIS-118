@@ -19,7 +19,6 @@ margin:0;
 display:inline-block;
 width:50%;
 }
-
 @media screen and (max-width: 32em) {
 body{
 	margin: 0;
@@ -33,6 +32,5 @@ body{
 		display: block;
 		width: 100%;
 		text-align: left;
-	}
-	
+	}	
 }
