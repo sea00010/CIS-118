@@ -35,22 +35,15 @@
 	$default_response = "Thank you for contacting us.<br>We will respond to your email as soon as possible";
 
 ################ YOU SHOULDN'T NEED TO EDIT ANYTHING BEYOND THIS POINT ################
-
-
 function error($code = "No Error Specified", $display = false, $terminate = false)
 {
 	global $default_destination_email;
 	mail("$default_destination_email","FORM_CONTACT Script Error","Warning!
 The FORM_CONTACT script on your site generated the following error:
 $code","From: $default_destination_email");
-
 	if($display) echo $code;
-
 	if($terminate) exit;
 }
-
-
-
 if($_POST)
 {
 	if(!$_POST['destination_email'])
@@ -61,7 +54,6 @@ if($_POST)
 	{
 		error("Script Error:  This form processing script has not yet been correctly set up.<br>Please contact the webmaster.", true, true);
 	}
-
 	$arrexclude = array("Submit", "destination_email", "required", "followup_url");
 	if($_POST['required']){
 		$a_required = explode(" ",$_POST['required']);
@@ -74,7 +66,6 @@ if($_POST)
 			}
 		}
 	}
-
 	$msg = "";
 	while (list($key, $value) = each($_POST)) {
 		$exclude = false;
@@ -83,7 +74,6 @@ if($_POST)
 				$exclude = true;
 			}
 		}
-
 		if ($exclude == false) {
 			$key = strtoupper($key);
 			$msg .= "\n\n".$key.": \n";
@@ -94,15 +84,12 @@ if($_POST)
 			}
 		}
 	}
-
 	$msg = trim(stripslashes($msg));
-
 	$badStrings = array("Content-Type:",
 	                     "MIME-Version:",
 	                     "Content-Transfer-Encoding:",
 	                     "bcc:",
 	                     "cc:");
-
 	foreach($badStrings as $v2){
 	    if(strpos(strtolower($_POST['destination_email']), strtolower($v2)) !== false){
 	        error("Website Form Hack Attempt on Destination Email: '$destination_email'");
@@ -130,22 +117,16 @@ if($_POST)
 	            exit;
 	    }
 	}
-
 	$destination_email = eregi_replace("[\r|\n]*", "", $_POST['destination_email']);
 	$email = eregi_replace("[\r|\n]*", "", $_POST['email']);
 	$subject = eregi_replace("[\r|\n]*", "", $_POST['subject']);
 	$response_email = eregi_replace("[\r|\n]*", "", $_POST['response_email']);
 	$response_name = eregi_replace("[\r|\n]*", "", $_POST['response_name']);
-
-
 	mail("$destination_email","Website Feedback Form: $subject","$msg\n","FROM: $destination_email");
-
 	$autoresponse_file = eregi_replace("[\r|\n]*", "", $_POST['autoresponse_file']);
 	if($autoresponse_file && $email)
 	{
 		if(strpos(" $autoresponse_file", "..")) error("AutoResponse File Hack Detected.  Attempted to download: '$autoresponse_file'", false, true);
-
-
 		if(@$file = implode(file("autoresponse/$autoresponse_file"), ""))
 		{
 			$fp = 0;
@@ -155,21 +136,18 @@ if($_POST)
 				$ep = strpos($file, "~}", $fp)+2;
 				$temp = substr($file, $fp, $ep-$fp);
 				$temp2 = substr($temp, 2, strlen($temp)-4);
-
 				if(strpos("-$temp", " "))
 				{
 					error("You may not have spaces in variable names in the autoresponse files.
 	The file containing the error is: $autoresponse_file");
 					break;
 				}
-
 				if(strpos("-$temp", "\n"))
 				{
 					error("You may not have newline characters in the autoresponse files.
 	The file containing the error is: $autoresponse_file");
 					break;
 				}
-
 				$file = str_replace($temp, $_POST[$temp2], $file);
 			}
 			mail("$email","$site_name: Automated Response","$file","From: $destination_email");
@@ -179,12 +157,10 @@ if($_POST)
 			error("The following form asked for a non-existent autoresponse to be sent:\n$HTTP_REFERER\n\nThe autoresponse file that it asked for was:\n$autoresponse_file");
 		}
 	}
-
 	if(!$_POST['followup_url']) $_POST['followup_url'] = $default_followup_url;
 	if($_POST['followup_url'] != "http://www.your site name.com/thanks.html")
 		header("Location: " . $_POST['followup_url']);
 	else
 		echo "$default_response";
-
 }
 ?>
