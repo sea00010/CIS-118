@@ -1,39 +1,28 @@
 <?php
-
 /*
-
 	FormContact 1.1 Plus
 	By WarkenSoft Productions
 	Copyright 2008
-
 	Optional Variables used by the script
 		$destination_email
 		$followup_url
 		$required
 		$subject
-
 	Variables Required for Autoresponder
 		$autoresponse_file
 		$email
-
 */
-
 ################################## BEGIN EDITING HERE ##################################
 # You will want to configure the following variables to suit your needs
-
 	# This variable will be used if the destination_email variable is not set on the form.
 	$default_destination_email = "your@emailaddress.here";
-
 	# The name of your website
 	$site_name = "Your Website's Name";
-
 	# The default followup URL in case one isn't supplied on the form.
 	# your form I've supplied does have a link to the "thanks.html" document
 	$default_followup_url = "http://www.your site name.com/thanks.html";
-
 	# The value of this variable will be displayed if the followup_url is not specified.
 	$default_response = "Thank you for contacting us.<br>We will respond to your email as soon as possible";
-
 ################ YOU SHOULDN'T NEED TO EDIT ANYTHING BEYOND THIS POINT ################
 function error($code = "No Error Specified", $display = false, $terminate = false)
 {
