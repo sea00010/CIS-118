@@ -14,7 +14,10 @@
 */
 ################################## BEGIN EDITING HERE ##################################
 # You will want to configure the following variables to suit your needs
-	# This variable will be used if the destination_email variable is not set on the form.
+	<dl>
+	<dt><label for="form-email">Email </dt>
+	<dd><input type="email" name="email" id="form-email" required placeholder="required"></dd>	
+	<dl>
 	$default_destination_email = "your@emailaddress.here";
 	# The name of your website
 	$site_name = "Your Website's Name";
