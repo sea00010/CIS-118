@@ -34,3 +34,13 @@ body{
 		text-align: left;
 	}	
 }
+.footer {
+width: 940px;
+margin: 0 __px;
+clear:  both;
+}
+.group:after {
+     content: "";
+     display: table;
+     clear: both;
+}
