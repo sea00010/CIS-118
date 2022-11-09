@@ -1,23 +1,23 @@
 .container{
 	width: 90%;
 }
-fieldset{
-width:75%;
+fieldset {
+width: 75%;
 }
-dl{padding:0;margin:0;overflow:auto;width:100%;}
+dl { padding: 0; margin: 0; overflow: auto; width: 100%; }
 dt {
-padding:0;
-margin:5px 0; 
-display:inline-block; 
-font-weight:bold;
-width:40%;
-text-align:right;
+padding: 0;
+margin: 5px 0; 
+display: inline-block; 
+font-weight: bold;
+width: 40%;
+text-align: right;
 }
 dd {
-padding:0;
-margin:0; 
-display:inline-block;
-width:50%;
+padding: 0;
+margin: 0; 
+display: inline-block;
+width: 50%;
 }
 @media screen and (max-width: 32em) {
 body{
