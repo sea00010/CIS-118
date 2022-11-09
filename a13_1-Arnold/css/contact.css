@@ -4,7 +4,7 @@
 fieldset {
 width: 75%;
 }
-dl { padding: 0; margin: 100%; overflow: auto; width: 100%; }
+dl { padding: 0; margin: 0; overflow: auto; width: 100%; }
 dt {
 padding: 0;
 margin: 5px 0; 
