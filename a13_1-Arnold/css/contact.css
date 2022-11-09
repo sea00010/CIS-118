@@ -29,7 +29,7 @@ body{
 	}
 	dt,dd {
 	margin: 0;
-		display: inline-block;
+		display: block;
 		width: 100%;
 		text-align: left;
 	}	
