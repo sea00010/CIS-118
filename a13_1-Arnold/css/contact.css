@@ -11,6 +11,7 @@ margin: 5px 0;
 display: inline-block; 
 font-weight: bold;
 width: 40%;
+overflow:auto;
 text-align: right;
 }
 dd {
