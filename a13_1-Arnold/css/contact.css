@@ -3,6 +3,7 @@
 }
 fieldset {
 width: 75%;
+overflow: auto;
 }
 dl { padding: 0; margin: 0; overflow: auto; width: 100%; }
 dt {
@@ -11,7 +12,6 @@ margin: 5px 0;
 display: inline-block; 
 font-weight: bold;
 width: 40%;
-overflow:auto;
 text-align: right;
 }
 dd {
