@@ -4,5 +4,6 @@ img {
 body {
   background-color: grey;
 }
-font-family: Georgia, serif;
-font-style: oblique;
+h1,h2 { 
+  font-family: Georgia, serif; 
+}
