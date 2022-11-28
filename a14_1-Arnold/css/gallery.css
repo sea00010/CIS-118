@@ -6,7 +6,7 @@
 			body {
 				background: #edf4fb;
 			}
-			header{
+			h3{
 				text-align: center;
 			}
 			.img-gallery{
@@ -52,3 +52,8 @@
 			footer {
 				text-align: center;
 			}	
+#nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
