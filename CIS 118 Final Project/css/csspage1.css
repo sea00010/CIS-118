@@ -13,3 +13,6 @@ h1,h2,h3 {
 table, th, td { 
   border: 1px solid #333; 
 }
+p {
+  text-allign: left;
+}
