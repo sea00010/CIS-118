@@ -13,6 +13,7 @@ table, th, td {
 }
 p {
   text-allign: left;
+  margin-right: 100px;
 }
 footer {
   position: absolute;
