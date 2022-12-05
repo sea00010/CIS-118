@@ -14,3 +14,7 @@ table, th, td {
 p {
   text-allign: left;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+}
