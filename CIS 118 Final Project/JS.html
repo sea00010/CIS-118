@@ -30,6 +30,17 @@
 		<img src="images/Kamikaze.png" onclick="openFullImg(this.src)">
 		<img src="images/MusicToBeMurderedBy.png" onclick="openFullImg(this.src)">
 		<img src="images/MusicToBeMurderedBySideB.png" onclick="openFullImg(this.src)">
+		<script> var fullImgBox = document.getElementById("fullImgBox");
+		var fullImg = document.getElementById("fullImg");
+		
+		function openFullImg(pic){
+		fullImgBox.style.display = "flex";
+		fullImg.src = pic;
+		}
+		function closeFullImg(){
+		fullImgBox.style.display = "None";
+		}
+		</script>
 	</div>	
 	</div>
 	<script src="js/gallery.js"></script>
