@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+    <meta name="author" content="Samuel Arnold">	
+		<title>Eminem Photo Gallery</title>
+		<link rel="stylesheet" href="css/csspage1.css">
+		<link rel="stylesheet" href="css/js.css">
+	</head>
+	<body id= "fluid">
+		<div id="container">
+		<div id="header" role="banner">
+		</div>	
+	<ul id="nav" role="navigation">
+	<a href="https://sea00010.github.io/CIS%20118%20Final%20Project/Final%20Project%20Main%20Page.html"><span><button class="btn success"><b>Back</b></button></span></a>
+	</ul>
+	<div id="gallery">
+	<h3>Photo Gallery</h3>
+	<div class="full-img" id="fullImgBox">
+		<img src="images/LiveEminem1.png" id="fullImg">
+		<span onclick="closeFullImg()">X</span>
+	</div>
+	<div class="img-gallery">
+		<img src="images/Infinite.png" onclick="openFullImg(this.src)">
+		<img src="images/SlimShadyLP.png" onclick="openFullImg(this.src)">
+		<img src="images/TheMarshallMathersLP.png" onclick="openFullImg(this.src)">
+		<img src="images/TheEminemShow.png" onclick="openFullImg(this.src)">
+		<img src="images/Encore.png" onclick="openFullImg(this.src)">
+		<img src="images/Relapse.png" onclick="openFullImg(this.src)">
+		<img src="images/Recovery.png" onclick="openFullImg(this.src)">
+		<img src="images/TheMarshallMathersLP2.png" onclick="openFullImg(this.src)">
+		<img src="images/Revival.png" onclick="openFullImg(this.src)">
+		<img src="images/Kamikaze.png" onclick="openFullImg(this.src)">
+		<img src="images/MusicToBeMurderedBy.png" onclick="openFullImg(this.src)">
+		<img src="images/MusicToBeMurderedBySideB.png" onclick="openFullImg(this.src)">
+		<script> var fullImgBox = document.getElementById("fullImgBox");
+		var fullImg = document.getElementById("fullImg");
+		
+		function openFullImg(pic){
+		fullImgBox.style.display = "flex";
+		fullImg.src = pic;
+		}
+		function closeFullImg(){
+		fullImgBox.style.display = "None";
+		}
+		</script>
+	</div>	
+	</div>
+	<script src="js/gallery.js"></script>
+	</body>
+	<footer>
+	<p>© 2022 | Samuel Arnold | <a href="https://sea00010.github.io/CIS%20118%20Final%20Project/Contact.html"><b>Contact Me</b></a></p>
+	</footer>
+</html>
